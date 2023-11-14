@@ -15,7 +15,7 @@ spec:
       containers:
         - name: emp
           image: myemp:latest
-          imagePullPolicy: Never ###
+          imagePullPolicy: Never
           ports:
             - containerPort: 8080
           volumeMounts:
@@ -44,7 +44,6 @@ spec:
       protocol: TCP
       port: 8080
       nodePort: 32567
-      # name: http
   selector:
-    app: myapp ## from label
+    app: myapp
     
