@@ -1,1 +1,2 @@
-# web-Deployment
+# PersonnelDataHub
+PersonnelDataHub is a web application designed for the easy collection and management of employee details. The application leverages Python's built-in HTTP server for local hosting, Docker for containerization, and Kubernetes Minikube for streamlined deployment. It provides a user-friendly interface for inputting and storing essential information about team members. The project aims to simplify the process of maintaining employee records through a scalable and accessible web-based solution.
